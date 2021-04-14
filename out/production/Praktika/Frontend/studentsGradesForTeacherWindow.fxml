@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.studentsGradesInfoForTeacherWindowController">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="80.0" prefWidth="651.0" style="-fx-border-color: #cbcbcb;">
+         <children>
+            <Label fx:id="nameSurnameLabel" layoutX="14.0" layoutY="32.0" prefHeight="17.0" prefWidth="144.0" text="Vardas pavardė">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="gradeLabel" layoutX="365.0" layoutY="32.0" text="Label" />
+            <Button fx:id="updateGradeButton" layoutX="538.0" layoutY="28.0" mnemonicParsing="false" onAction="#updateGradeButtonClicked" prefHeight="25.0" prefWidth="99.0" text="Keisti pažymį" />
+            <Button fx:id="newGradeButton" layoutX="538.0" layoutY="28.0" mnemonicParsing="false" onAction="#newGradeButtonClicked" prefHeight="25.0" prefWidth="99.0" text="Įrašyti pažymi" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

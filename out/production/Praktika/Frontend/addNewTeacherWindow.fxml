@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addNewTeacherWindowController">
+    <children>
+        <CheckBox fx:id="checkBoxIfIsMen" layoutX="164.0" layoutY="117.0" mnemonicParsing="false" onAction="#menChekBox" text="Moteris" />
+        <CheckBox fx:id="checkBoxIfIsWomen" layoutX="90.0" layoutY="117.0" mnemonicParsing="false" onAction="#womenChekBox" text="Vyras" />
+        <ListView fx:id="stringListView" layoutX="40.0" layoutY="161.0" prefHeight="101.0" prefWidth="248.0" />
+        <TextField fx:id="nameTextField" layoutX="90.0" layoutY="27.0" promptText="Vardas" />
+        <TextField fx:id="surnameTextField" layoutX="90.0" layoutY="56.0" promptText="Pavardė" />
+        <Button fx:id="confirmButton" layoutX="90.0" layoutY="285.0" mnemonicParsing="false" onAction="#confirmButtonClicked" prefHeight="25.0" prefWidth="149.0" text="Pridėti naują dėstytoją" />
+      <TextField fx:id="rankTextField" layoutX="90.0" layoutY="86.0" promptText="Pareigos" />
+      <Label layoutX="40.0" layoutY="144.0" text="Dėstytojui parinkite dėstomą paskaitą:" />
+    </children>
+</Pane>

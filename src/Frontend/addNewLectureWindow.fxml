@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addNewLectureWindowController">
+   <children>
+      <TextField fx:id="newLectureTitleTextField" layoutX="85.0" layoutY="54.0" prefHeight="25.0" prefWidth="203.0" promptText="Paskaitos pavadinimas" />
+      <TextArea fx:id="newLectureDescriptionTextArea" layoutX="85.0" layoutY="113.0" prefHeight="108.0" prefWidth="203.0" promptText="Paskaitos aprašymas..." />
+      <Button fx:id="confirmButton" layoutX="122.0" layoutY="243.0" mnemonicParsing="false" onAction="#confirmButtonClicked" text="Pridėti naują paskaitą" />
+   </children>
+</Pane>

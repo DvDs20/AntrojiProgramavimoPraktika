@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="93.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.studentInfoWindowController">
+   <children>
+      <Label fx:id="nameLabel" layoutX="23.0" layoutY="14.0" prefHeight="17.0" prefWidth="78.0" text="vardas">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Button fx:id="deleteUserButton" layoutX="540.0" layoutY="34.0" mnemonicParsing="false" onAction="#deleteUserButtonClicked" text="Trinti studentą">
+         <graphic>
+            <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../buttonImages/trashButton.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label fx:id="surnameLabel" layoutX="23.0" layoutY="37.0" prefHeight="17.0" prefWidth="121.0" text="pavardė">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="groupTitleLabel" layoutX="23.0" layoutY="62.0" prefHeight="17.0" prefWidth="121.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
